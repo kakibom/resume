@@ -3,6 +3,10 @@
   font-family: 'Jeju Gothic', sans-serif;
   color: #57E9E1;
 }
+.jg-p {
+  font-family: 'Jeju Gothic', sans-serif;
+  font-size: 150%;
+}
 .jm{font-family: 'Jeju Myeongjo', serif;}
 .ng{font-family: 'Nanum Gothic', sans-serif;}
 .ngc{font-family: 'Nanum Gothic Coding', monospace;}
@@ -57,18 +61,19 @@ article {
     float: left;
     line-height: 30px;
     vertical-align: middle;
+    position:relative; height:100%; width:20%; float:left;
 }
 
 #topMenu ul {
-    margin-left: : 30px auto;
+    margin-left: : 0px auto;
 }
 
 #topMenu .menuLink {
   text-decoration:none;
   color: white;
   display: block;
-  width: 70px;
-  font-size: 80%;
+  width: 100% auto;
+  font-size: 70%;
   font-family: 'Jeju Gothic', sans-serif;
 }
 
@@ -89,9 +94,9 @@ article {
 }
 
 .propic {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
+  border: 20px solid #EBFBFF;
   object-fit: cover;
-
 }
