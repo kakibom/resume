@@ -9,7 +9,7 @@
 
 h1 {
   color: #fffafa;
-  font-size: 300%;
+  font-size: 200%;
 }
 h1#a:after {
   content: "";
@@ -27,7 +27,7 @@ div#wrapper {
   margin: 0 auto;
 }
 header {
-  height: 500px;
+  height: 250px;
   background-image: url("Tibetfox.jpg");
   background-size: cover;
   margin: 5px auto;
@@ -67,10 +67,9 @@ article {
   text-decoration:none;
   color: white;
   display: block;
-  width: 100px;
-  font-size: 100%;
-  font-weight: bold;
-  font-family: "Trebuchet MS", Dotum, Arial;
+  width: 70px;
+  font-size: 80%;
+  font-family: 'Jeju Gothic', sans-serif;
 }
 
 #topMenu .menuLink:hover {
