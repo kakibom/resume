@@ -1,0 +1,80 @@
+.jg{font-family: 'Jeju Gothic', sans-serif;}
+.jm{font-family: 'Jeju Myeongjo', serif;}
+.ng{font-family: 'Nanum Gothic', sans-serif;}
+.ngc{font-family: 'Nanum Gothic Coding', monospace;}
+
+h1 {
+  color: #fffafa;
+  font-size: 300%;
+}
+h1#a:after {
+  content: "";
+  display: block;
+  width: 60px;
+  border-bottom: 1px solid #bcbcbc;
+  margin: 20px auto;
+}
+
+body {
+  text-align: center;
+}
+div#wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  height: 245px;
+  background-image: url("Tibetfox.jpg");
+  background-size: cover;
+  margin: 5px auto;
+}
+footer {
+  height: 50px;
+  position: relative;
+  clear: both;
+  border: 1px solid #999;
+  margin: 5px auto;
+  padding: 10px;
+}
+article {
+  width: 90%;
+  margin: 20px;
+  text-align: left;
+}
+
+#topMenu {
+  height: 30px;
+  background-color: #2d2d2d;
+  text-align: center;
+}
+#topMenu li {
+    list-style: none;
+    color: white;
+    background-color: #2d2d2d;
+    float: left;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+#topMenu ul {
+    margin-left: : 30px auto;
+}
+
+#topMenu .menuLink {
+  text-decoration:none;
+  color: white;
+  display: block;
+  width: 100px;
+  font-size: 100%;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Dotum, Arial;
+}
+
+#topMenu .menuLink:hover {
+  color: #dcdcdc;
+  background-color: #4d4d4d;
+}
+
+#logo {
+  opacity: 0.5;
+}
