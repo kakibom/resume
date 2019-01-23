@@ -9,6 +9,14 @@
   color: #323232;
   line-height: 150%;
 }
+.jg-p-left {
+  font-family: 'Jeju Gothic', sans-serif;
+  font-size: 100%;
+  color: #323232;
+  line-height: 150%;
+  text-align: left;
+}
+
 .jm{font-family: 'Jeju Myeongjo', serif;}
 .ng{font-family: 'Nanum Gothic', sans-serif;}
 .ng-p {
@@ -17,6 +25,22 @@
   text-align: left;
 }
 .ngc{font-family: 'Nanum Gothic Coding', monospace;}
+.ngc-p{
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 9px;
+  font-style: italic;
+  color: #c8c8c8;
+  line-height: 1.5;
+  text-align: center;
+}
+.ngc-pp{
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 11px;
+  font-style: italic;
+  color: #3c3c3c;
+  line-height: 1.5;
+  text-align: center;
+}
 
 h1 {
   color: #fffafa;
@@ -30,8 +54,6 @@ h1#a:after {
   margin: 20px auto;
 }
 
-body {
-  text-align: center;
 }
 div#wrapper {
   width: 100%;
@@ -41,19 +63,22 @@ header {
   height: 250px;
   background-image: url("Tibetfox.jpg");
   background-size: cover;
+  opacity: 0.8;
   margin: 5px auto;
+  text-align: center;
 }
 footer {
-  height: 50px;
+  height: 80px;
   position: relative;
   clear: both;
-  border: 1px solid #999;
   margin: 5px auto;
   padding: 10px;
+  background-color: #2d2d2d;
 }
 article {
-  width: 90%;
-  margin: 20px;
+  width: 95%;
+  margin: 10px;
+  text-align: center;
 }
 
 #topMenu {
@@ -98,11 +123,20 @@ article {
   font-size: 300%;
   color: #57E9E1;
   line-height: 100%;
+  position: center;
 }
 
 .propic {
   width: 200px;
   height: 200px;
+  border-radius: 50%;
+  border: 20px solid #EBFBFF;
+  object-fit: cover;
+}
+
+.propic-1 {
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: 20px solid #EBFBFF;
   object-fit: cover;
